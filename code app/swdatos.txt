@@ -15,3 +15,9 @@ Hola de parte de Lenner
             }
             return tblEX_INV;
         }
+
+        public string getCumpleanos(int p_entColaborador)
+        {
+           
+            return '1900-01-01';
+        }
