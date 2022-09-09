@@ -28,3 +28,9 @@ Hola de parte de Lenner
            
             return '1900-01-01';
         }
+	//Comentario
+        public string pagoRh(int p_entColaborador)
+        {
+           
+            return 1.00;
+        }
