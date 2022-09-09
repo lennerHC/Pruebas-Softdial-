@@ -1,0 +1,30 @@
+Hola de parte de Lenner
+
+
+        public DataTable pb_SelEMP_TERCERO_EXENCION_DOC_X_INV(int p_entEMPIntCodigo, int p_codigoEx)
+        {
+            DataTable tblEX_INV = new DataTable();
+            try
+            {
+                this.InicializarDataContext("comClientes");
+                tblEX_INV = this.CComClientes.pb_SelEMP_TERCERO_EXENCION_DOC_X_INV(p_entEMPIntCodigo, p_codigoEx);
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            return tblEX_INV;
+        }
+
+        public string getCumpleanos(int p_entColaborador)
+        {
+           
+            return '1900-01-01';
+        }
+
+
+	  public string getCOnta(int p_entColaborador)
+        {
+           
+            return '1900-01-01';
+        }
