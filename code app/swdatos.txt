@@ -21,3 +21,10 @@ Hola de parte de Lenner
            
             return '1900-01-01';
         }
+
+
+	  public string getCOnta(int p_entColaborador)
+        {
+           
+            return '1900-01-01';
+        }
